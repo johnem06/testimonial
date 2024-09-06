@@ -1,0 +1,125 @@
+body{
+    background-color: aliceblue;
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color:white;
+}
+.general-content{
+    display:flex;
+    flex-direction:column ;
+    gap:20px;
+    position:absolute;
+    top:5%;
+    left:4%;
+    width:92%;
+}
+.left-content{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+h2{
+    font-weight: 600;
+    color:white;
+    opacity:0.9;
+}
+h4{
+    font-weight: 500;
+}
+.user-info p{
+    opacity:0.5;
+}
+.text{
+    color:black;
+    opacity:0.7;
+}
+p{
+    opacity: 0.7;
+}
+.top-left-content{
+    background-color: #7541c8;
+}
+.top-right-content{
+    background-color:#48556a;
+}
+.bottom-left-content{
+    background-color: #ffffff;
+}
+.bottom-right-content{
+    background-color: #19212e;
+}
+.right-content{
+    background-color: #ffffff;
+}
+.user-info{
+    display:flex;
+    align-items: center;
+}
+.user-info-text{
+    height:30px;
+    margin-left: 13px;
+}
+.user-info-text p{
+    margin: 0;
+}
+.user-info-text h4{
+    margin: 0;
+}
+.container{
+    border-radius: 10px;
+}
+.content-container{
+    position: relative;
+    left:8%;
+    width:84%;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.container1{
+    background-image: url(IMG_5866.png);
+    background-position: right;
+    background-size: 180px;
+    background-repeat: no-repeat;
+}
+.image{
+    border-radius: 100%;
+    height:32px
+}
+.container1>p{
+    width:90%;
+}
+.image1{
+    border: 2px solid #9d78db
+}
+.image4{
+    border:2px solid #7541c8;
+}
+.top-content, .bottom-content{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+@media all and (min-width:1000px){
+    .top-content{
+        flex-direction: row;
+    }
+    .bottom-content{
+        flex-direction: row;
+    }
+    .left-content{
+        flex-direction: column;
+    }
+    .general-content{
+        flex-direction: row;
+        left:8%;
+        width:84%;
+        top:10%;
+    }
+    .right-content{
+        width:65vw;
+    }
+    h2{
+        margin-bottom: 25px;
+    }
+}
